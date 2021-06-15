@@ -32,7 +32,6 @@ componentDidMount() {
           ...snapShot.data()
         }
         });
-        console.log(this.state);
       });
       //  Can't be called after userRef, asyncronous
     }
